@@ -1,0 +1,57 @@
+:root{
+    --primary: #F54748;
+    --secondary: #FB9300;
+    --dark: #343F56;
+    --light: #F5E6CA;
+  }
+  
+  
+  /* color name: red, voilet, pink, green, yellow
+  hex color code : #rrggbb
+  rgb color code : rgb(0-255, 0-255, 0-255)=> rgb(255, 255, 100)
+  hsl color code : hsl(0-359, 0-100%, 0-100%)
+  hsl(320, 100%, 20%) */
+  
+  /* h1{
+    color:blueviolet;
+  } */
+  
+  /* h1{
+    color: rgb(38, 90, 38);
+  } */
+  /* h1{
+    color: #ef4589;
+  } */
+  /* h1{
+    color: #343F56;
+    
+  }
+  p{
+    color: var(--dark);
+  } */
+  .ck-bg{
+    /* border: 1px solid var(--dark);
+    border-radius: 50%; */
+    background-color: var(--primary);
+    color:white;
+    border-radius:12px;
+    padding: 10px;
+    margin: 12%;
+  
+  }
+  
+  
+  
+  
+   /* body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-attachment: fixed;
+   } */
+  
+  /* body{
+    background: url('bg.jpg') no-repeat fixed ;
+    background-size: cover;
+  } */
