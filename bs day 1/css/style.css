@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Urbanist:wght@400;800&display=swap');
+/* font-family: 'Rampart One', cursive; */
+
+*{
+    font-family: 'Urbanist', sans-serif;
+}
+.heading{
+    font-weight: 800;
+    font-size: 66px;
+}
+
+.live-class{
+    border:6px solid #FFB740;
+    border-radius:24px;
+}
