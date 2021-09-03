@@ -1,0 +1,21 @@
+$card-border-radius:12px;
+
+$theme-colors: (
+  "primary":    #FFB830,
+  "dark":       #000,
+  "success":     #3DB2FF,
+);
+
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+@import '../node_modules/bootstrap/scss/utilities';
+
+@import '../node_modules/bootstrap/scss/reboot';
+@import '../node_modules/bootstrap/scss/root';
+@import '../node_modules/bootstrap/scss/bootstrap-grid';
+@import '../node_modules/bootstrap/scss/containers';
+@import '../node_modules/bootstrap/scss/card';
+@import '../node_modules/bootstrap/scss/buttons';
+@import '../node_modules/bootstrap/scss/grid';
+@import '../node_modules/bootstrap/scss/alert';
