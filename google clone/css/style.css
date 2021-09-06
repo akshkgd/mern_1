@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+}
+.ck-link{
+    text-decoration: none;
+}
+
+.card{
+    border-radius: 12px !important;
+    margin-top: 1.5rem !important;
+}
