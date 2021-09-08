@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+$font-family-sans-serif:'Inter', sans-serif;
+
+//additional classes
+.fw-900{
+    font-weight: 900 !important;
+}
+.avatar{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.icons a{
+    color: #040303;
+
+}
+.icons a:hover{
+    color: #ffad14;
+    
+}
+.heighlight{
+    background-color: #FFEDDA;
+}
+.projects{
+    border-radius: 16px;
+}
+.contact{
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+    color: #ffad14;
+    background-color: #FFEDDA;
+    border-radius: 33px;
+    display: block;
+    margin-top: 10px;
+}
+.contact:hover{
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+    color: #040303;
+    background-color: #FFEDDA;
+    border-radius: 33px;
+    display: block;
+    margin-top: 10px;
+}
+
+//sass variables
+$card-border-radius: 16px;
+$theme-colors: (
+    "success": #3DB2FF,
+  "dark":       #040303,
+);
+
+
+@import '../node_modules/bootstrap/scss/bootstrap'
