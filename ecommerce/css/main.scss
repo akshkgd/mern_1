@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Euclidcircularb';
+    src: url("https://assets.website-files.com/60f05dbf1d8b772819778341/60f05dbf1d8b77cdf677835a_EuclidCircularB-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap; }
+  @font-face {
+    font-family: 'Euclidcircularb';
+    src: url("https://assets.website-files.com/60f05dbf1d8b772819778341/60f05dbf1d8b77196f778357_EuclidCircularB-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; }
+  @font-face {
+    font-family: 'Euclidcircularb';
+    src: url("https://assets.website-files.com/60f05dbf1d8b772819778341/60f05dbf1d8b77837d778358_EuclidCircularB-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap; }
+  @font-face {
+    font-family: 'Euclidcircularb';
+    src: url("https://assets.website-files.com/60f05dbf1d8b772819778341/60f05dbf1d8b7770c5778359_EuclidCircularB-Semibold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap; }
+  @font-face {
+    font-family: 'Euclidcircularb';
+    src: url("https://assets.website-files.com/60f05dbf1d8b772819778341/60f05dbf1d8b776a3077835e_EuclidCircularB-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap; }
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+//style
+.logo{
+    font-family: 'Righteous', cursive !important; 
+}
+.border-none{
+    border: none !important;
+}
+
+
+
+
+
+
+
+
+//vars
+$font-family-sans-serif: 'Euclidcircularb';
+$theme-colors: (
+  "primary":    #FFB830,
+  "info":       #3DB2FF,
+  "danger":     #FF2442,
+  "light":      #FFEDDA,
+  "dark":       #040300,
+  "white":      #fff,
+);
+$dropdown-border-radius: 8px;
+$dropdown-border-color: white;
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
