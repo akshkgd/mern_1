@@ -12,7 +12,7 @@
     <!-- navbar section -->
     <nav class="navbar navbar-expand-sm navbar-light bg-white">
         <div class="container-fluid">
-          <a class="navbar-brand logo " href="#"  style="font-size: 24px;">Learn Javascript</a>
+          <a class="navbar-brand logo " href="index.html"  style="font-size: 24px;">Learn Javascript</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -40,8 +40,10 @@
               
             </ul>
             <form class="d-flex">
-              
-                <button class="btn btn-dark" type="submit">Sign Up for Free</button>
+              <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Sign Up for Free
+              </button>
+                
             </form>
           </div>
           
@@ -63,11 +65,89 @@
                 <a href="" class="btn btn-primary">Purchase first coursre</a>
             </div>
         </div>
+        <div class="row justify-content-center mt-5">
+          <div class="col-lg-9">
+            <video src="./img/video.mp4" controls class="img-fluid hero-video" poster="./img/tea1.png"></video>
+          </div>
+        </div>
     </div>
 
 
     <!-- hero section ends -->
 
+    <!-- testimonials section -->
+
+    <section>
+      <div class="container my-5">
+        <div class="row">
+          <h1 class="display fw-bolder text-dark text-center my-5">Students and their parents love us</h1>
+          <div class="col-md-6">
+            <div class="card  shadow hero-video" >
+              <div class="card-body">
+                <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ab eum vero similique laborum molestiae odit. In culpa qui minima optio recusandae omnis delectus at, sequi possimus, iure, id labore rem dolores. Ad, dolorem ullam?</p>
+                <div class="d-flex">
+                  <img src="./img/v3_0946858.jpeg" alt="" class="avatar-sm">
+                  <p class="fw-bold m-2">Ayushi Sharma <br> <span class="text-muted fw-light small">Student at class 4th B</span></p>
+                </div>
+                
+              </div>
+              <div class="card-footer border-none bg-white d-flex justify-content-between">
+                <a href="feedback.html" class="text-dark stretched-link">Read Feedback</a>
+                <i class="bi bi-arrow-right fs-5"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card  shadow hero-video" >
+              <div class="card-body">
+                <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ab eum vero similique laborum molestiae odit. In culpa qui minima optio recusandae omnis delectus at, sequi possimus, iure, id labore rem dolores. Ad, dolorem ullam?</p>
+                <div class="d-flex">
+                  <img src="./img/v3_0329481_0533696_0500331.png" alt="" class="avatar-sm">
+                  <p class="fw-bold m-2">Himanshu Srivastava<br> <span class="text-muted fw-light small">Student at class 4th B</span></p>
+                </div>
+                
+              </div>
+              <div class="card-footer border-none bg-white d-flex justify-content-between">
+                <a href="feedback.html" class="text-dark stretched-link">Read Feedback</a>
+                <i class="bi bi-arrow-right fs-5"></i>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </section>
+
+      <!-- testimonials section ends-->
+
+
+
+
+
+
+
+
+      <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-none">
+        <h5 class="modal-title fs-2 fw-bolder" id="exampleModalLabel">Welcome Back 👋</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, vitae optio? Aperiam, repellat! Obcaecati fugiat quia, quasi suscipit eos vitae .</p>
+        <a href="" class="btn btn-dark rounded-pill">Continue with Google</a>
+        <a href="" class="btn btn-outline-dark rounded-pill">Continue with Email</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
