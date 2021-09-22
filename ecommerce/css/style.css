@@ -56,6 +56,13 @@
   background-color: #FFEDDA;
   padding: 4px 8px 4px 8px; }
 
+.pricing {
+  background-color: #FFEDDA;
+  display: inline; }
+
+.card {
+  margin-bottom: 16px !important; }
+
 /*!
  * Bootstrap v5.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

@@ -52,12 +52,21 @@
   width: 120px; 
   border-radius: 50%;
   border:2px solid #FFB830;
+
 }
 .heighlight{
   background-color: #FFEDDA;
   padding: 4px 8px 4px 8px;
 }
-
+.pricing{
+  background-color: #FFEDDA;
+  // border-radius: 33px;
+  // padding: 6px 16px 6px 16px;
+  display: inline;
+}
+.card{
+  margin-bottom: 16px !important;
+}
 
 
 
