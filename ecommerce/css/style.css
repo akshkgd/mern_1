@@ -63,6 +63,29 @@
 .card {
   margin-bottom: 16px !important; }
 
+.sticky-lg {
+  position: sticky;
+  top: 0;
+  margin-top: 50px; }
+
+.dark-logo {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  color: white;
+  background-color: #040300;
+  border-radius: 4px;
+  font-weight: bolder; }
+
+.dark-logo:hover {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  color: white;
+  background-color: #040300;
+  border-radius: 4px;
+  font-weight: bolder; }
+
 /*!
  * Bootstrap v5.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
